@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.340548c7.css",
-    "main.js": "/static/js/main.5f5a6694.js",
-    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
-    "static/media/profile.jpg": "/static/media/profile.63b1943e695299888925.jpg",
-    "index.html": "/index.html",
-    "main.340548c7.css.map": "/static/css/main.340548c7.css.map",
-    "main.5f5a6694.js.map": "/static/js/main.5f5a6694.js.map",
-    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/vivian-enlife/static/css/main.340548c7.css",
+    "main.js": "/vivian-enlife/static/js/main.115037a6.js",
+    "static/js/787.28cb0dcd.chunk.js": "/vivian-enlife/static/js/787.28cb0dcd.chunk.js",
+    "static/media/profile.jpg": "/vivian-enlife/static/media/profile.63b1943e695299888925.jpg",
+    "index.html": "/vivian-enlife/index.html",
+    "main.340548c7.css.map": "/vivian-enlife/static/css/main.340548c7.css.map",
+    "main.115037a6.js.map": "/vivian-enlife/static/js/main.115037a6.js.map",
+    "787.28cb0dcd.chunk.js.map": "/vivian-enlife/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.340548c7.css",
-    "static/js/main.5f5a6694.js"
+    "static/js/main.115037a6.js"
   ]
 }
