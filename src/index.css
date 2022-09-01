@@ -86,6 +86,7 @@ h2 {
 p, ul {
 	color: #343a40;
 	font-size: 0.8rem;
+	line-height: 1rem;
 }
 
 li {
