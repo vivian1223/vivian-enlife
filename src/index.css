@@ -57,11 +57,14 @@ table {
 	letter-spacing: 0.4px;
 }
 
-body {
+#root {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	width: 100%;
 }
+
+
 
 img {
 	width: 100%;
