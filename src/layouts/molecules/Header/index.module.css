@@ -1,10 +1,18 @@
 .header {
+	display: flex;
+	justify-content: center;
 	color: #f7ede2;
 	background-color: #9b3424;
 	font-size: 12px;
 	padding: 10px;
 	text-align: left;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	width: 100%;
+}
+
+.headerContent {
+ max-width: 600px;
+ width: 100%;
 }
 
 .icon {
