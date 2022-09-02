@@ -7,8 +7,10 @@ import styles from './index.module.css';
 const Header = () => {
 	return (
 		<div className={styles.header}>
-			<FontAwesomeIcon className={styles.icon} icon={faBullhorn as IconProp} />
-			Vivian 最近在參加 2022 鐵人賽喲～
+			<div className={styles.headerContent}>
+				<FontAwesomeIcon className={styles.icon} icon={faBullhorn as IconProp} />
+				Vivian 最近在參加 2022 鐵人賽喲～
+			</div>
 		</div>
 	);
 };

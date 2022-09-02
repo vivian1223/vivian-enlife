@@ -57,11 +57,15 @@ table {
 	letter-spacing: 0.4px;
 }
 
-body {
+#root {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	width: 100%;
+	background-color: #fff8f0;
 }
+
+
 
 img {
 	width: 100%;
@@ -83,6 +87,7 @@ h2 {
 p, ul {
 	color: #343a40;
 	font-size: 0.8rem;
+	line-height: 1rem;
 }
 
 li {
