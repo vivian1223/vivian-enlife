@@ -62,7 +62,7 @@ table {
 	flex-direction: column;
 	align-items: center;
 	width: 100%;
-	background-color: #fff8f0;
+	background-color: #e9e5e3;
 }
 
 
@@ -92,4 +92,9 @@ p, ul {
 
 li {
 	margin: 8px 0;
+}
+
+a {
+	display: inline-block;
+	text-decoration: none;
 }
