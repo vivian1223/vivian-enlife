@@ -97,4 +97,5 @@ li {
 a {
 	display: inline-block;
 	text-decoration: none;
+	line-height: 1rem;
 }
