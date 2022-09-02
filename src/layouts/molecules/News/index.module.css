@@ -6,3 +6,11 @@
 	max-width: 600px;
 	width: 100%;
 }
+
+.icon {
+	margin: 0 4px;
+}
+
+.newsTitle {
+	margin-bottom: 10px;
+}
