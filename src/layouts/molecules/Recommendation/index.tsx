@@ -12,13 +12,23 @@ interface LinkProperty {
 const recommendationList = [
 	{
 		id: 1,
-		source: 'https://ithelp.ithome.com.tw/users/20151147/ironman/5232',
-		title: '《鐵人賽》致 JS 開發者的 FP 新手指南',
+		source: 'https://vocus.cc/programming_girl/home',
+		title: '《專欄》RD 少女養成計劃',
 	},
 	{
 		id: 2,
-		source: 'https://vocus.cc/article/6268d64afd897800017a368b',
-		title: '【自學程式】那些你沒搞懂的 Flexbox 及實務應用',
+		source: 'https://youtu.be/ge4AVZKvhew',
+		title: '《影片》轉職三部曲（ㄧ）：如何找到職涯目標？',
+	},
+	{
+		id: 3,
+		source: 'https://youtu.be/LdAW3_aCQYQ',
+		title: '《影片》轉職三部曲（二）：軟體領域生態談',
+	},
+	{
+		id: 4,
+		source: 'https://youtu.be/SYHRCmz1d9Y',
+		title: '《影片》轉職三部曲（三）：如何規劃轉職計畫',
 	},
 ];
 
@@ -29,9 +39,9 @@ const LinkContent: React.FC<LinkProperty> = ({ title }) => (
 	</div>
 );
 
-const News = () => (
-	<div className={styles.news}>
-		<h2 className={styles.newsTitle}>最新消息</h2>
+const Recommendation = () => (
+	<div className={styles.recommendation}>
+		<h2 className={styles.recommendationTitle}>推薦閱讀</h2>
 		<div className={styles.list}>
 			{recommendationList.map(({ id, source, title }) => (
 				<Link key={id} source={source} content={<LinkContent title={title} />} />
@@ -40,4 +50,4 @@ const News = () => (
 	</div>
 );
 
-export default News;
+export default Recommendation;

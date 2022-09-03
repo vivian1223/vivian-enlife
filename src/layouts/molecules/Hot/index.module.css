@@ -1,4 +1,4 @@
-.news {
+.hot {
 	display: flex;
 	flex-direction: column;
 	padding: 20px 10px;
@@ -10,7 +10,7 @@
 	margin: 0 4px;
 }
 
-.newsTitle {
+.hotTitle {
 	margin-bottom: 10px;
 	text-align: center;
 }

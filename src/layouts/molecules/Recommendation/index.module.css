@@ -1,4 +1,4 @@
-.news {
+.recommendation {
 	display: flex;
 	flex-direction: column;
 	padding: 20px 10px;
@@ -10,7 +10,7 @@
 	margin: 0 4px;
 }
 
-.newsTitle {
+.recommendationTitle {
 	margin-bottom: 10px;
 	text-align: center;
 }
