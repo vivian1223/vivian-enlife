@@ -9,7 +9,7 @@ const Header = () => {
 		<div className={styles.header}>
 			<div className={styles.headerContent}>
 				<FontAwesomeIcon className={styles.icon} icon={faBullhorn as IconProp} />
-				Vivian 最近在參加 2022 鐵人賽喲～
+				Vivian 最近在參加 2022 鐵人賽喲～目前進度：Day 1
 			</div>
 		</div>
 	);
