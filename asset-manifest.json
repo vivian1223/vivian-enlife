@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/vivian-enlife/static/css/main.bf5d61b2.css",
+    "main.css": "/vivian-enlife/static/css/main.1f00a62d.css",
     "main.js": "/vivian-enlife/static/js/main.58d28e1d.js",
     "static/js/787.28cb0dcd.chunk.js": "/vivian-enlife/static/js/787.28cb0dcd.chunk.js",
     "static/media/profile.jpg": "/vivian-enlife/static/media/profile.63b1943e695299888925.jpg",
     "index.html": "/vivian-enlife/index.html",
-    "main.bf5d61b2.css.map": "/vivian-enlife/static/css/main.bf5d61b2.css.map",
+    "main.1f00a62d.css.map": "/vivian-enlife/static/css/main.1f00a62d.css.map",
     "main.58d28e1d.js.map": "/vivian-enlife/static/js/main.58d28e1d.js.map",
     "787.28cb0dcd.chunk.js.map": "/vivian-enlife/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf5d61b2.css",
+    "static/css/main.1f00a62d.css",
     "static/js/main.58d28e1d.js"
   ]
 }
