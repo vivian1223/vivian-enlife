@@ -4,6 +4,7 @@ import { IconProp } from '@fortawesome/fontawesome-svg-core';
 import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 import styles from './index.module.css';
 import Link from '../../atom/Link';
+import SeperationWithTitle from '../../atom/SeperationWithTitle';
 
 interface LinkProperty {
 	title: string;
@@ -36,7 +37,7 @@ const LinkContent: React.FC<LinkProperty> = ({ title }) => (
 
 const Hot = () => (
 	<div className={styles.hot}>
-		<h2 className={styles.hotTitle}>熱門閱讀 Top 3 </h2>
+		<SeperationWithTitle title="熱門閱讀 Top 3" />
 		<div className={styles.list}>
 			{recommendationList.map(({ id, source, title }) => (
 				<Link key={id} source={source} content={<LinkContent title={title} />} />

@@ -11,6 +11,7 @@
 	flex-direction: column;
 	align-items: center;
 	padding: 20px 10px;
+	border-radius: 5px;
 }
 
 .profileImageContainer, .profileImage {
@@ -29,6 +30,6 @@
 }
 
 .profileIntro {
-	width: 200px;
+	width: 250px;
 	text-align: center;
 }
