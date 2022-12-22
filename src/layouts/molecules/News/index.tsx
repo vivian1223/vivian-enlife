@@ -1,7 +1,11 @@
 import React from 'react';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { IconProp } from '@fortawesome/fontawesome-svg-core';
 import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
+
+import SeperationWithTitle from '../../atom/SeperationWithTitle';
+
 import styles from './index.module.css';
 import Link from '../../atom/Link';
 
@@ -12,13 +16,18 @@ interface LinkProperty {
 const recommendationList = [
 	{
 		id: 1,
-		source: 'https://ithelp.ithome.com.tw/users/20151147/ironman/5232',
-		title: '《鐵人賽》致 JS 開發者的 FP 新手指南',
+		source: 'https://vocus.cc/article/639c19b5fd89780001dc1cd8',
+		title: '⭐【訂閱讀者限定】壓力也要斷捨離，5 個減法生活提案',
 	},
 	{
 		id: 2,
-		source: 'https://vocus.cc/article/6268d64afd897800017a368b',
-		title: '【自學程式】那些你沒搞懂的 Flexbox 及實務應用',
+		source: 'https://vocus.cc/article/637b48b0fd897800012015ff',
+		title: '【前端開發】FP 基礎：純函式 ＆ 柯里化',
+	},
+	{
+		id: 3,
+		source: 'https://vocus.cc/article/6345475bfd89780001d1c9b0',
+		title: '⭐【訂閱讀者限定】如何撰寫技術文章？軟體工程師推薦閱讀',
 	},
 ];
 
@@ -31,7 +40,7 @@ const LinkContent: React.FC<LinkProperty> = ({ title }) => (
 
 const News = () => (
 	<div className={styles.news}>
-		<h2 className={styles.newsTitle}>最新消息</h2>
+		<SeperationWithTitle title="最新消息" />
 		<div className={styles.list}>
 			{recommendationList.map(({ id, source, title }) => (
 				<Link key={id} source={source} content={<LinkContent title={title} />} />

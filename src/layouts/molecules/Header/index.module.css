@@ -1,6 +1,8 @@
 .header {
 	display: flex;
 	justify-content: center;
+	position: fixed;
+	top: 0;
 	color: #9b3424;
 	background-color: #fff;
 	font-size: 12px;
@@ -8,6 +10,7 @@
 	text-align: left;
 	box-shadow: rgb(0 0 0 / 16%) 0px 5px 11px 0px;
 	width: 100%;
+	z-index: 10;
 }
 
 .headerContent {
